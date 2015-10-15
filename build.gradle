@@ -10,8 +10,10 @@ repositories {
 }
 
 dependencies {
+  compile     'org.springframework.boot:spring-boot-starter-web:1.2.6.RELEASE'
   testCompile 'info.cukes:cucumber-java8:1.2.4'
-  testCompile 'info.cukes:cucumber-junit:1.2.4'
+  testCompile 'info.cukes:cucumber-testng:1.2.4'
+  testCompile 'info.cukes:cucumber-spring:1.2.4'
   testCompile 'org.springframework.boot:spring-boot-starter-test:1.2.6.RELEASE'
 }
 
